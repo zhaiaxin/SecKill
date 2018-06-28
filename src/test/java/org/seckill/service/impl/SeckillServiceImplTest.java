@@ -14,7 +14,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 /**
- * 职责
+ * 秒杀接口实现 测试
  *
  * @author zhaiaxin
  * @time 2018/6/28 15:00
