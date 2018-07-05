@@ -10,7 +10,7 @@
     </insert>
 
     <select id="queryByIdWithSeckill" resultType="SuccessKilled">
-        <!-- 如何告诉MyBatis把结果映射到SuccessKilled同时映射seckill属性 -->
+        <!-- 如何告诉 MyBatis 把结果映射到 SuccessKilled 同时映射 seckill 属性 -->
         <!-- 可以自由控制SQL -->
         SELECT
         sk.seckill_id,

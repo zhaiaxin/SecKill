@@ -42,11 +42,11 @@ public class SeckillServiceImplTest extends BaseTest {
     // 测试代码完整逻辑，注意可重复执行
     @Test
     public void testSeckillLogic() throws Exception {
-        long id = 1001;
+        long id = 1000;
         Exposer exposer = seckillService.exportSeckillUrl(id);
         if (exposer.isExposed()) {
             logger.info("exposer={}", exposer);
-            long phone = 13631231234L;
+            long phone = 15764315269L;
             String md5 = exposer.getMd5();
             try {
                 SeckillExecution execution = seckillService.executeSeckill(id, phone, md5);
