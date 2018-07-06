@@ -54,4 +54,5 @@
 			#{result, jdbcType = INTEGER, mode = OUT }
 		)
 	</select>
+
 </mapper>
