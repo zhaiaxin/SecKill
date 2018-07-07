@@ -26,7 +26,7 @@ public class SuccessKilledDaoTest extends BaseTest{
          * 第二次:insertCount=0
          */
         long id = 1001;
-        long phone = 13631231234L;
+        long phone = 17678313419L;
         int insertCount = successKilledDao.insertSuccessKilled(id, phone);
         System.out.println("insertCount=" + insertCount);
     }

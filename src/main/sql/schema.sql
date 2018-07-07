@@ -34,7 +34,7 @@ VALUES
 CREATE TABLE success_killed(
 	`seckill_id` BIGINT NOT NULL COMMENT '商品库存id',
 	`user_phone` BIGINT NOT NULL COMMENT '用户手机号',
-	`state` TINYINT NOT NULL DEFAULT -1 COMMENT '状态信息：-1无效，0成功，1已付款，2已发货',
+	`state` TINYINT NOT NULL DEFAULT 0 COMMENT '状态信息：-3，数据篡改；-2，系统异常；-1，重复秒杀；0，秒杀结束；1，秒杀成功',
 	`create_time` TIMESTAMP NOT NULL COMMENT '创建时间',
 	PRIMARY KEY (`seckill_id`, `user_phone`),/*联合主键*/
 	KEY `idx_create_time` (`create_time`)

@@ -22,7 +22,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 /**
- * 职责
+ * SeckillController
  *
  * @author zhaiaxin
  * @time 2018/6/28 15:38
