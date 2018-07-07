@@ -1,6 +1,8 @@
 > 此篇项目记录 慕课网 李奕锋老师 [java高并发秒杀API系列课程](https://www.imooc.com/u/2145618/courses?sort=publish)的学习过程
 
 ----------
+
+apache openresty
 ## 项目架构
 
 数据库：mysql 5.7
