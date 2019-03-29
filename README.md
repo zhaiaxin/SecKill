@@ -2,7 +2,6 @@
 
 ----------
 
-apache openresty
 ## 项目架构
 
 数据库：mysql 5.7
